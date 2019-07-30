@@ -1,0 +1,28 @@
+{
+  "name": "express-ssr",
+  "version": "1.0.0",
+  "description": "use the VUE making ssr in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beblueblue/SSR-Vue-Express.git"
+  },
+  "keywords": [
+    "ssr"
+  ],
+  "author": "hhz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beblueblue/SSR-Vue-Express/issues"
+  },
+  "homepage": "https://github.com/beblueblue/SSR-Vue-Express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vue-server-renderer": "^2.6.10"
+  }
+}

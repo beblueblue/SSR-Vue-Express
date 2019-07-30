@@ -1,0 +1,8 @@
+# 忽略依赖包文件
+node_modules/
+
+# 忽略VSCode配置文件
+.vscode/
+
+# 忽略mac 创建的标记文件
+.DS_Store
