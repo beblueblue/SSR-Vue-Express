@@ -3,7 +3,7 @@ const createRouter = require('./router');
 
 
 // 实例 每次请求都会创建新的实例，需利用缓存优化
-module.exports = (context) => {
+module.exports = (context, data) => {
     // 生成router
     const router = createRouter();
 
@@ -30,5 +30,5 @@ module.exports = (context) => {
             </div>
         `
     });
-    return {rooter, app}
+    return {router, app}
 }

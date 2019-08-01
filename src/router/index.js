@@ -28,6 +28,15 @@ module.exports = () => {
                         `
                     }
                 },
+                {
+                    path: '*',
+                    name: '404',
+                    component: {
+                        template: `
+                            <div>我是404</div>
+                        `
+                    }
+                },
             ]
         })
 }
